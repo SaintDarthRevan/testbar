@@ -44,6 +44,5 @@ class BarVisitor extends AbstractVisitor
         } else {
             $this->setBehavior('Drink');
         }
-        if ($this->behavior == null) var_dump($this);
     }
 }

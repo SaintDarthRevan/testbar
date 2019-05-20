@@ -27,7 +27,6 @@ abstract class AbstractVisitor implements \SplObserver
 
     public function whatDo()
     {
-        if ($this->behavior == null) var_dump($this);
         return $this->name.$this->behavior->getMessage();
     }
 
