@@ -1,0 +1,28 @@
+{
+    "name": "sergey/testbar",
+    "description": "It just works",
+    "type": "project",
+    "license": "free",
+    "authors": [
+        {
+            "name": "God of Coding",
+            "email": "s7beta@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Place\\": "Classes/Place/",
+            "Visitor\\": "Classes/Visitor/",
+            "Visitor\\Behavior\\": "Classes/Visitor/Behavior/",
+            "Music\\": "Classes/Music/",
+            "Report\\": "Classes/Report/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "Tests/"
+        }
+    }
+}
