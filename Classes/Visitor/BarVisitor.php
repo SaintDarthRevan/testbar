@@ -18,7 +18,6 @@ class BarVisitor extends AbstractVisitor
     {
         parent::__construct($name);
         $this->favGenres = $favGenres;
-        //$this->behavior = new Drink();
     }
 
     public function getFavGenres()

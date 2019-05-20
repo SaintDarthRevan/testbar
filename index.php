@@ -1,10 +1,4 @@
 <?php
-/*function autoload($classname) {
-    include(__DIR__ . DIRECTORY_SEPARATOR . "Classes" . DIRECTORY_SEPARATOR . $classname . ".php");
-}
-spl_autoload_register("autoload");*/
-//require __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
-
 require __DIR__ . '/vendor/autoload.php';
 
 use \Place\Bar;
